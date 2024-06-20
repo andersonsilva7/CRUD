@@ -4,19 +4,23 @@ Este projeto é uma aplicação de CRUD (Create, Read, Update, Delete) de Alunos
 ## Instalação
 
 1. Clone o repositório:
-   `
+   ``
    git clone https://github.com/andersonsilva7/crud.git
+   ``
+
+
+   ``
    cd crud
-   `
-2. Instale as dependências:
+   ``
+3. Instale as dependências:
 `
 npm install
 `
-3. Inicie o JSON Server:
+4. Inicie o JSON Server:
 `
 json-server --watch db.json
 `
-4. Inicie a aplicação Angular:
+5. Inicie a aplicação Angular:
 `
 ng serve
 `
