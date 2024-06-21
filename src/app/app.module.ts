@@ -6,6 +6,12 @@ import { StudentListComponent } from './student-list/student-list.component';
 import { StudentFormComponent } from './student-form/student-form.component';
 import { StudentDetailsComponent } from './student-details/student-details.component';
 
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatButtonModule } from '@angular/material/button';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { ReactiveFormsModule } from '@angular/forms';
+import { AppComponent } from './app.component';
 
 
 @NgModule({
@@ -17,7 +23,14 @@ import { StudentDetailsComponent } from './student-details/student-details.compo
   ],
   imports: [
     CommonModule,
-    AppRoutingModule
-  ]
+    AppRoutingModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatButtonModule,
+    MatSnackBarModule,
+    ReactiveFormsModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
 })
 export class AppModule { }

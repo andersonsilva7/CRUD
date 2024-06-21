@@ -1,0 +1,26 @@
+{
+    "students": [
+      {
+        "id": 1,
+        "nome": "Anderson Silva",
+        "idade": 29,
+        "curso": "Engenharia",
+        "email": "andersonsilva7.ti@gmail.com"
+      },
+      {
+        "id": 2,
+        "nome": "Belatrix Lastrange",
+        "idade": 69,
+        "curso": "Dementadora",
+        "email": "maloka.comensal@death.com"
+      },
+      {
+        "id": 3,
+        "nome": "gvkb Lastrange",
+        "idade": 69,
+        "curso": "Dementadora",
+        "email": "maloka.comensal@death.com"
+      }
+    ]
+  }
+  
